@@ -1,0 +1,125 @@
+* {
+    margin: 0px;
+    font-family: Verdana;
+}
+
+header h1{
+    text-align: center;
+    background-color: orange;
+    padding: 100px;
+}
+
+nav {
+    padding: 10px;
+    background-color: #333;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+nav a:hover {
+    background-color: #111;
+}
+
+main {
+    margin: auto;
+    background-color: darkgray;
+}
+
+article {
+    border: 1px solid red;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 700px;
+    background-color: white;
+    position: relative;
+}
+
+article h1 {
+    padding-top: 5px;
+    text-align: center;
+}
+
+article p {
+    padding-top: 5px;
+    padding-left: 2px;
+}
+
+article img {
+    padding: 20px 2px;
+    width: 120px;
+    height: 120px;
+}
+
+article a {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    text-decoration: none;
+    color: blue;
+    border: solid 1px black;
+    padding: 2px;
+    background-color: white;
+}
+
+article a:hover {
+    background-color: darkgray;
+}
+
+footer {
+    background-color: chartreuse;
+}
+
+footer p {
+    padding: 30px;
+    font-weight: bold;
+}
+
+#form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: auto;
+    width: 700px;
+}
+
+form input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form a {
+    width: 100%;
+    padding: 5px;
+    border: solid 1px black;
+    text-decoration: none;
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+
+form color:not() {
+    width: 20px;
+}
+
+form textarea {
+    padding-left: 5px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+#enviar {
+    padding: 10px;
+    background-color: rgb(0, 255, 34);
+}
+
+#enviar:hover {
+    background-color: #45a049;
+}
